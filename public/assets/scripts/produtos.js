@@ -1,17 +1,16 @@
-
 const produtos = [
     {
         id: 0,
         nome: "EBOOK DE RECEITAS",
         preco: 60.00,
-        imagem: "assets/images/produto1.jpg", 
+        imagem: "assets/images/produto1.jpg",
         descricao: "Aprenda as melhores receitas culinárias com este ebook completo. Contém mais de 50 receitas práticas e deliciosas, com ingredientes acessíveis e modo de preparo detalhado.",
         descricaoCompleta: "Este ebook é um guia completo para quem deseja aprender as melhores técnicas culinárias e preparar receitas deliciosas em casa. Desenvolvido por um chef profissional com mais de 15 anos de experiência, este material oferece 50+ receitas testadas e aprovadas, ingredientes acessíveis e fáceis de encontrar, modo de preparo passo a passo com fotos, dicas profissionais de culinária, tabela nutricional de cada receita, vídeos tutoriais exclusivos e acesso a comunidade de alunos. Após a compra, você receberá acesso imediato ao material através de um link de download. O acesso é vitalício e você poderá baixar quantas vezes desejar.",
         fotos: [
             "assets/images/produto1.jpg",
-            "assets/images/produto1.jpg", 
-            "assets/images/produto1.jpg",
-            "assets/images/produto1.jpg"
+            "assets/images/produto2.jpg",
+            "assets/images/produto3.jpg",
+            "assets/images/produto4.jpg"
         ],
         autor: {
             nome: "João Silva",
@@ -34,16 +33,16 @@ const produtos = [
     },
     {
         id: 1,
-        nome: "MÉTODO DMS - MARKETING DIGITAL",
+        nome: "MÉTODO DMS",
         preco: 150.00,
-        imagem: "assets/images/produto2.jpg", 
+        imagem: "assets/images/produto2.jpg",
         descricao: "Aprenda o método DMS revolucionário para otimizar sua estratégia de marketing digital. Este curso prático oferece ferramentas e técnicas comprovadas para aumentar suas vendas.",
         descricaoCompleta: "O Método DMS é uma estratégia revolucionária desenvolvida por especialistas em marketing digital. Este curso prático oferece ferramentas e técnicas comprovadas para aumentar suas vendas e otimizar sua presença online. Você aprenderá desde o básico até estratégias avançadas de marketing digital, com acesso a ferramentas premium e suporte direto com especialista.",
         fotos: [
             "assets/images/produto2.jpg",
-            "assets/images/produto2.jpg",
-            "assets/images/produto2.jpg",
-            "assets/images/produto2.jpg"
+            "assets/images/produto1.jpg",
+            "assets/images/produto3.jpg",
+            "assets/images/produto4.jpg"
         ],
         autor: {
             nome: "Maria Santos",
@@ -68,19 +67,19 @@ const produtos = [
         id: 2,
         nome: "INGLÊS AVANÇADO",
         preco: 450.00,
-        imagem: "assets/images/produto3.jpg", 
+        imagem: "assets/images/produto3.jpg",
         descricao: "Domine o inglês avançado com este curso completo. Aprenda gramática, vocabulário e pronúncia com aulas interativas e exercícios práticos.",
         descricaoCompleta: "Este curso de inglês avançado foi desenvolvido por um professor nativo com 20 anos de experiência. Você aprenderá não apenas a gramática, mas também expressões idiomáticas, pronúncia correta e como se comunicar naturalmente com falantes nativos. Inclui aulas com professor nativo, exercícios interativos, certificado internacionalmente reconhecido, acesso a comunidade de alunos e suporte personalizado.",
         fotos: [
             "assets/images/produto3.jpg",
-            "assets/images/produto3.jpg",
-            "assets/images/produto3.jpg",
-            "assets/images/produto3.jpg"
+            "assets/images/produto1.jpg",
+            "assets/images/produto2.jpg",
+            "assets/images/produto4.jpg"
         ],
         autor: {
             nome: "David Thompson",
             bio: "Professor nativo de inglês com 20 anos de experiência",
-            imagem: "assets/images/autor3.jpg"
+            imagem: "images/autor3.jpg"
         },
         caracteristicas: [
             "Aulas com professor nativo",
@@ -100,14 +99,14 @@ const produtos = [
         id: 3,
         nome: "TRÁFEGO PAGO DO ZERO",
         preco: 250.00,
-        imagem: "assets/images/produto4.jpg", 
+        imagem: "assets/images/produto4.jpg",
         descricao: "Aprenda a criar campanhas de tráfego pago do zero. Este curso cobre Google Ads, Facebook Ads e outras plataformas de publicidade digital.",
         descricaoCompleta: "Aprenda a criar campanhas de tráfego pago do zero com este curso completo. Você dominará Google Ads, Facebook Ads, Instagram Ads e outras plataformas. Inclui estratégias de otimização, análise de métricas e como maximizar seu ROI. Desenvolvido por especialista em publicidade digital com ROI comprovado.",
         fotos: [
             "assets/images/produto4.jpg",
-            "assets/images/produto4.jpg",
-            "assets/images/produto4.jpg",
-            "assets/images/produto4.jpg"
+            "assets/images/produto1.jpg",
+            "assets/images/produto2.jpg",
+            "assets/images/produto3.jpg"
         ],
         autor: {
             nome: "Carlos Mendes",
@@ -130,16 +129,16 @@ const produtos = [
     },
     {
         id: 4,
-        nome: "GUIA SAÚDE E BEM ESTAR",
+        nome: "SAÚDE E BEM ESTAR",
         preco: 180.00,
-        imagem: "assets/images/produto5.webp", 
+        imagem: "assets/images/produto2.jpg",
         descricao: "Guia completo para melhorar sua saúde e bem-estar. Aprenda técnicas de meditação, exercícios e nutrição.",
         descricaoCompleta: "Um guia completo desenvolvido por profissionais de saúde para melhorar sua qualidade de vida. Inclui técnicas de meditação, exercícios práticos, dicas de nutrição e muito mais.",
         fotos: [
-            "assets/images/produto5.webp",
-            "assets/images/produto5.webp",
-            "assets/images/produto5.webp",
-            "assets/images/produto5.webp"
+            "assets/images/produto2.jpg",
+            "assets/images/produto1.jpg",
+            "assets/images/produto3.jpg",
+            "assets/images/produto4.jpg"
         ],
         autor: {
             nome: "Dra. Ana Costa",
@@ -164,14 +163,14 @@ const produtos = [
         id: 5,
         nome: "CURSO - EXCEL AVANÇADO",
         preco: 70.00,
-        imagem: "assets/images/produto6.png", 
+        imagem: "assets/images/produto3.jpg",
         descricao: "Domine o Excel com técnicas avançadas. Aprenda macros, análise de dados e automação.",
         descricaoCompleta: "Curso completo de Excel avançado para profissionais que desejam dominar a ferramenta. Aprenda desde fórmulas complexas até automação com macros e análise de dados avançada.",
         fotos: [
-            "assets/images/produto6.png",
-            "assets/images/produto6.png",
-            "assets/images/produto6.png",
-            "assets/images/produto6.png"
+            "assets/images/produto3.jpg",
+            "assets/images/produto1.jpg",
+            "assets/images/produto2.jpg",
+            "assets/images/produto4.jpg"
         ],
         autor: {
             nome: "Pedro Oliveira",
@@ -194,8 +193,6 @@ const produtos = [
     }
 ];
 
-
-
 function obterProduto(id) {
     return produtos.find(p => p.id === parseInt(id));
 }
@@ -205,10 +202,12 @@ function obterTodosProdutos() {
 }
 
 function obterProdutosDestaque() {
+
     return produtos.slice(0, 3);
 }
 
 function obterProdutosRecomendados() {
+
     return produtos.slice(3, 6);
 }
 
@@ -220,176 +219,3 @@ function adicionarAListaDesejos(id) {
     alert("Produto adicionado à lista de desejos!");
 }
 
-
-
-function renderizarCarrosel() {
-    const container = document.getElementById('carrosel-container');
-    if (!container) return;
-
-    const produtos_destaque = obterProdutosDestaque();
-    let html = '<div class="carrosel-wrapper">';
-    
-    produtos_destaque.forEach((produto, index) => {
-    
-        html += `
-            <a href="detalhe.html?id=${produto.id}" class="carrosel-item ${index === 0 ? 'ativo' : ''}">
-                <img src="${produto.imagem}" alt="${produto.nome}">
-                <div class="carrosel-info">
-                    <h3>${produto.nome}</h3>
-                    <p>R$ ${produto.preco.toFixed(2)}</p>
-                </div>
-            </a>
-        `;
-    });
-
-    html += '</div>';
-    html += '<button class="carrosel-btn carrosel-prev" onclick="mudarCarrosel(-1)">‹</button>';
-    html += '<button class="carrosel-btn carrosel-next" onclick="mudarCarrosel(1)">›</button>';
-    html += '<div class="carrosel-dots">';
-    
-    produtos_destaque.forEach((_, index) => {
-        html += `<span class="dot ${index === 0 ? 'ativo' : ''}" onclick="irParaCarrosel(${index})"></span>`;
-    });
-    
-    html += '</div>';
-    container.innerHTML = html;
-}
-
-let indiceCarrosel = 0;
-
-function mudarCarrosel(direcao) {
-    const items = document.querySelectorAll('.carrosel-item');
-    const dots = document.querySelectorAll('.dot');
-    
-    indiceCarrosel += direcao;
-    
-    if (indiceCarrosel >= items.length) {
-        indiceCarrosel = 0;
-    } else if (indiceCarrosel < 0) {
-        indiceCarrosel = items.length - 1;
-    }
-    
-    items.forEach(item => item.classList.remove('ativo'));
-    dots.forEach(dot => dot.classList.remove('ativo'));
-    
-    items[indiceCarrosel].classList.add('ativo');
-    dots[indiceCarrosel].classList.add('ativo');
-}
-
-function irParaCarrosel(index) {
-    indiceCarrosel = index;
-    const items = document.querySelectorAll('.carrosel-item');
-    const dots = document.querySelectorAll('.dot');
-    
-    items.forEach(item => item.classList.remove('ativo'));
-    dots.forEach(dot => dot.classList.remove('ativo'));
-    
-    items[indiceCarrosel].classList.add('ativo');
-    dots[indiceCarrosel].classList.add('ativo');
-}
-
-function renderizarProdutosDestaque() {
-    const container = document.getElementById('produtos-destaque');
-    if (!container) return;
-
-    const todos_produtos = obterTodosProdutos(); 
-    let html = '';
-    
-    todos_produtos.forEach(produto => {
-    
-        html += `
-            <div class="produto-card">
-                <a href="detalhe.html?id=${produto.id}">
-                    <img src="${produto.imagem}" alt="${produto.nome}">
-                    <div class="produto-info">
-                        <h3>${produto.nome}</h3>
-                        <p class="preco">R$ ${produto.preco.toFixed(2)}</p>
-                    </div>
-                </a>
-            </div>
-        `;
-    });
-    
-    container.innerHTML = html;
-}
-
-
-
-function mudarImagemPrincipal(src) {
-    document.getElementById('imagem-principal').src = src;
-}
-
-function renderizarDetalheProduto(id) {
-    const produto = obterProduto(id);
-    if (!produto) {
-  
-        window.location.href = 'index.html'; 
-        return;
-    }
-
-    document.getElementById('produto-titulo').textContent = produto.nome;
-    document.getElementById('produto-preco').textContent = `R$ ${produto.preco.toFixed(2)}`;
-    document.getElementById('produto-descricao').textContent = produto.descricao;
-    document.getElementById('imagem-principal').src = produto.fotos[0]; 
-    document.getElementById('imagem-principal').alt = produto.nome;
-
-  
-    const galeriaContainer = document.getElementById('galeria-fotos');
-    let galeriaHtml = '';
-    produto.fotos.forEach((foto, index) => {
-        galeriaHtml += `
-            <img src="${foto}" alt="Foto ${index + 1}" class="foto-galeria" onclick="mudarImagemPrincipal('${foto}')">
-        `;
-    });
-    galeriaContainer.innerHTML = galeriaHtml;
-
- 
-    const caracteristicasContainer = document.getElementById('caracteristicas-lista');
-    let caracteristicasHtml = '';
-    produto.caracteristicas.forEach(caracteristica => {
-        caracteristicasHtml += `<li>✓ ${caracteristica}</li>`;
-    });
-    caracteristicasContainer.innerHTML = caracteristicasHtml;
-
-   
-    document.getElementById('info-formato').textContent = produto.informacoes.formato;
-    document.getElementById('info-tamanho').textContent = produto.informacoes.tamanho;
-    document.getElementById('info-acesso').textContent = produto.informacoes.acesso;
-    document.getElementById('info-suporte').textContent = produto.informacoes.suporte;
-
-
-    document.getElementById('descricao-completa').textContent = produto.descricaoCompleta;
-
-
-    document.getElementById('btn-carrinho').onclick = () => adicionarAoCarrinho(produto.id);
-    document.getElementById('btn-desejos').onclick = () => adicionarAListaDesejos(produto.id);
-}
-
-
-
-document.addEventListener('DOMContentLoaded', function() {
-
-    if (document.body.classList.contains('home-page')) {
-        renderizarCarrosel();
-        renderizarProdutosDestaque();
-    }
-    
- 
-    if (document.body.classList.contains('detalhe-page')) {
-        const urlParams = new URLSearchParams(window.location.search);
-        const produtoId = urlParams.get('id');
-        if (produtoId !== null) {
-            renderizarDetalheProduto(produtoId);
-        } else {
-
-            window.location.href = 'index.html';
-        }
-    }
-});
-
-
-window.mudarCarrosel = mudarCarrosel;
-window.irParaCarrosel = irParaCarrosel;
-window.mudarImagemPrincipal = mudarImagemPrincipal;
-window.adicionarAoCarrinho = adicionarAoCarrinho;
-window.adicionarAListaDesejos = adicionarAListaDesejos;

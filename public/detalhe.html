@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Digital Market Store - Home</title>
+    <title>Detalhes do Produto - Digital Market Store</title>
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
-<body class="home-page">
+<body class="detalhe-page">
     <header class="header">
         <div class="header-top">
             <div class="logo-container">
@@ -24,8 +24,8 @@
 
         <nav class="nav-desktop">
             <a href="index.html">HOME</a>
-            <a href="#produtos-destaque">PRODUTOS</a>
-            <a href="#produtos-recomendados">OFERTAS</a>
+            <a href="index.html#produtos-destaque">PRODUTOS</a>
+            <a href="index.html#produtos-recomendados">OFERTAS</a>
         </nav>
     </header>
 
@@ -35,10 +35,10 @@
             <a href="index.html" onclick="fecharMenu()">
                 <img src="assets/icons/home.svg" alt="Home"> Home
             </a>
-            <a href="#produtos-destaque" onclick="fecharMenu()">
+            <a href="index.html#produtos-destaque" onclick="fecharMenu()">
                 <img src="assets/icons/produtos.svg" alt="Produtos"> Produtos
             </a>
-            <a href="#produtos-recomendados" onclick="fecharMenu()">
+            <a href="index.html#produtos-recomendados" onclick="fecharMenu()">
                 <img src="assets/icons/oferta.svg" alt="Ofertas"> Ofertas
             </a>
             <a href="#" onclick="fecharMenu()">
@@ -54,29 +54,69 @@
     </aside>
 
     <main class="main-content">
-        <section class="hero">
-            <img src="assets/images/logo_main.png" alt="Digital Market Store" class="hero-logo">
-            <h1 class="hero-title">DIGITAL MARKET STORE</h1>
-            <p class="hero-subtitle">AQUI VOCÊ ENCONTRA OS MELHORES PRODUTOS DIGITAIS<br>PARA TRANSFORMAR SUAS IDEIAS EM RESULTADOS.</p>
-        </section>
+        <div class="detalhe-container">
+            <div class="detalhe-imagens">
+                <div class="imagem-principal-container">
 
-            <h2 class="secao-titulo">Produtos em Destaque</h2>
+                    <img id="imagem-principal" src="" alt="Produto" class="imagem-principal">
+                </div>
 
-        <section id="carrosel-container" class="carrosel-section">
-
-        </section>
-
-        <section class="produtos-section">
-            <h2 class="secao-titulo">Principais Produtos</h2>
-            <div id="produtos-destaque" class="produtos-grid">
-
+                <div class="galeria-section">
+                    <h3>Fotos Relacionadas</h3>
+                    <div id="galeria-fotos" class="galeria-fotos">
+  
+                    </div>
+                </div>
             </div>
 
-            <div class="ver-mais">
-                <a href="#">Ver mais ></a>
+            <div class="detalhe-info">
+                <h1 id="produto-titulo"></h1>
+
+                <div class="preco-section">
+                    <h2 id="produto-preco" class="preco-destaque"></h2>
+                    <p class="preco-label">Preço por licença</p>
+                </div>
+
+
+                <div class="descricao-section">
+                    <h3>Descrição</h3>
+                    <p id="produto-descricao"></p>
+                </div>
+
+
+                <div class="caracteristicas-section">
+                    <h3>Características Principais</h3>
+                    <ul id="caracteristicas-lista">
+
+                    </ul>
+                </div>
+
+                <div class="info-adicionais">
+                    <h3>Detalhes Gerais</h3>
+                    <div class="info-grid">
+                        <div>
+                            <p><strong>Formato:</strong> <span id="info-formato"></span></p>
+                            <p><strong>Tamanho:</strong> <span id="info-tamanho"></span></p>
+                        </div>
+                        <div>
+                            <p><strong>Acesso:</strong> <span id="info-acesso"></span></p>
+                            <p><strong>Suporte:</strong> <span id="info-suporte"></span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="botoes-acao">
+                    <button id="btn-carrinho" class="btn-principal">Adicionar ao Carrinho</button>
+                    <button id="btn-desejos" class="btn-secundario">Adicionar à Lista de Desejos</button>
+                </div>
             </div>
+        </div>
+
+        <section class="descricao-completa-section">
+            <h2>Descrição Completa</h2>
+            <p id="descricao-completa"></p>
         </section>
-        
+
 
     </main>
 
