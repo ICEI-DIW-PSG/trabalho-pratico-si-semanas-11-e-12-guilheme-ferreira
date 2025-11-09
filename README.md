@@ -6,24 +6,29 @@ Para esse projeto, além de mudarmos o JSON para o JSON Server, vamos permitir o
 
 ## Informações do trabalho
 
-- Nome:
-- Matricula:
+- Nome: Guilherme Ferreira de Lima
+- Matricula: 902424
 - Proposta de projeto escolhida:
+
+Um e-commerce de produtos digitais em modelo de afiliação e autoria própria.
+
 - Breve descrição sobre seu projeto:
+
+O projeto consiste na criação de um site próprio para servir como vitrine de produtos digitais, sejam eles de minha autoria ou dos quais serei afiliado, reunindo em um só espaço cursos, e-books e ferramentas disponíveis para venda online. O objetivo é direcionar tráfego da internet para minha página e facilitar o acesso dos usuários aos produtos, funcionando como um meio de monetização tanto pelas comissões de afiliação quanto pela venda de produtos próprios.
 
 **Print dos testes da API com Postman ou similar**
 
-<< COLOQUE A IMAGEM GET AQUI >>
+![GET](public/assets/images/get.png)
 
-<< COLOQUE A IMAGEM POST AQUI >>
+![POST](public/assets/images/post.png)
 
-<< COLOQUE A IMAGEM PUT AQUI >>
+![PUT](public/assets/images/put.png)
 
-<< COLOQUE A IMAGEM DELETE AQUI >>
+![DELETE](public/assets/images/delete.png)
 
 **Print da aba NETWORK com requisições Fetch/XHR POST e GET**
 
-<<  COLOQUE A IMAGEM AQUI >>
+![Print aba NETWORK](public/assets/images/network.png)
 
 ## **Orientações Gerais**
 
