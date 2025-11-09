@@ -1,18 +1,219 @@
 {
-  "usuarios": [
+  "produtos": [
     {
-      "id": "187cb7e5-e097-4224-8bc7-b610c855e2b1",
-      "login": "admin",
-      "senha": "123",
-      "nome": "Administrador do Sistema",
-      "email": "admin@abc.com"
+      "id": 2,
+      "nome": "MÉTODO DMS",
+      "preco": 150,
+      "imagem": "assets/images/produto2.jpg",
+      "descricao": "Aprenda o método DMS revolucionário para otimizar sua estratégia de marketing digital.",
+      "descricaoCompleta": "O Método DMS é uma estratégia revolucionária desenvolvida por especialistas em marketing digital...",
+      "fotos": [
+        "assets/images/produto2.jpg",
+        "assets/images/produto1.jpg",
+        "assets/images/produto3.jpg",
+        "assets/images/produto4.jpg"
+      ],
+      "autor": {
+        "nome": "Maria Santos",
+        "bio": "Especialista em marketing digital com 10 anos de experiência",
+        "imagem": "assets/images/autor2.jpg"
+      },
+      "caracteristicas": [
+        "Método exclusivo e comprovado",
+        "Acesso a ferramentas premium",
+        "Suporte direto com especialista",
+        "Atualizações vitalícias",
+        "Certificado de conclusão"
+      ],
+      "informacoes": {
+        "formato": "Vídeo+PDF",
+        "tamanho": "2.5 GB",
+        "acesso": "Vitalício",
+        "suporte": "Chat ao vivo"
+      }
     },
     {
-      "id": "ec37c83d-4b7f-458d-9e10-3fda7d37cd3e",
-      "login": "user",
-      "senha": "123",
-      "nome": "Usuario Comum",
-      "email": "user@abc.com"
+      "id": 3,
+      "nome": "INGLÊS AVANÇADO",
+      "preco": 450,
+      "imagem": "assets/images/produto3.jpg",
+      "descricao": "Domine o inglês avançado com este curso completo. Aprenda gramática, vocabulário e pronúncia com aulas interativas e exercícios práticos.",
+      "descricaoCompleta": "Este curso de inglês avançado foi desenvolvido por um professor nativo com 20 anos de experiência...",
+      "fotos": [
+        "assets/images/produto3.jpg",
+        "assets/images/produto1.jpg",
+        "assets/images/produto2.jpg",
+        "assets/images/produto4.jpg"
+      ],
+      "autor": {
+        "nome": "David Thompson",
+        "bio": "Professor nativo de inglês com 20 anos de experiência",
+        "imagem": "assets/images/autor3.jpg"
+      },
+      "caracteristicas": [
+        "Aulas com professor nativo",
+        "Exercícios interativos",
+        "Certificado internacional",
+        "Comunidade de alunos",
+        "Suporte personalizado"
+      ],
+      "informacoes": {
+        "formato": "Vídeo HD+Exercícios",
+        "tamanho": "3.2 GB",
+        "acesso": "Vitalício",
+        "suporte": "Email+Chat"
+      }
+    },
+    {
+      "id": 4,
+      "nome": "TRÁFEGO PAGO DO ZERO",
+      "preco": 250,
+      "imagem": "assets/images/produto4.jpg",
+      "descricao": "Aprenda a criar campanhas de tráfego pago do zero.",
+      "descricaoCompleta": "Aprenda a criar campanhas de tráfego pago do zero com este curso completo...",
+      "fotos": [
+        "assets/images/produto4.jpg",
+        "assets/images/produto1.jpg",
+        "assets/images/produto2.jpg",
+        "assets/images/produto3.jpg"
+      ],
+      "autor": {
+        "nome": "Carlos Mendes",
+        "bio": "Especialista em publicidade digital com ROI comprovado",
+        "imagem": "assets/images/autor4.jpg"
+      },
+      "caracteristicas": [
+        "Google Ads",
+        "Facebook Ads",
+        "Otimização de campanhas",
+        "Análise de métricas",
+        "Suporte com especialista"
+      ],
+      "informacoes": {
+        "formato": "Vídeo+Planilhas",
+        "tamanho": "1.8 GB",
+        "acesso": "Vitalício",
+        "suporte": "Email+Comunidade"
+      }
+    },
+    {
+      "id": 5,
+      "nome": "SAÚDE E BEM ESTAR",
+      "preco": 180,
+      "imagem": "assets/images/produto2.jpg",
+      "descricao": "Guia completo para melhorar sua saúde e bem-estar.",
+      "descricaoCompleta": "Um guia completo desenvolvido por profissionais de saúde...",
+      "fotos": [
+        "assets/images/produto2.jpg",
+        "assets/images/produto1.jpg",
+        "assets/images/produto3.jpg",
+        "assets/images/produto4.jpg"
+      ],
+      "autor": {
+        "nome": "Dra. Ana Costa",
+        "bio": "Médica especialista em bem-estar integral",
+        "imagem": "assets/images/autor2.jpg"
+      },
+      "caracteristicas": [
+        "Técnicas de meditação",
+        "Exercícios práticos",
+        "Dicas de nutrição",
+        "Acesso vitalício",
+        "Comunidade de apoio"
+      ],
+      "informacoes": {
+        "formato": "Vídeo+PDF",
+        "tamanho": "1.2 GB",
+        "acesso": "Vitalício",
+        "suporte": "Email"
+      }
+    },
+    {
+      "id": 6,
+      "nome": "CURSO - EXCEL AVANÇADO",
+      "preco": 70,
+      "imagem": "assets/images/produto3.jpg",
+      "descricao": "Domine o Excel com técnicas avançadas.",
+      "descricaoCompleta": "Curso completo de Excel avançado para profissionais...",
+      "fotos": [
+        "assets/images/produto3.jpg",
+        "assets/images/produto1.jpg",
+        "assets/images/produto2.jpg",
+        "assets/images/produto4.jpg"
+      ],
+      "autor": {
+        "nome": "Pedro Oliveira",
+        "bio": "Especialista em Excel com 12 anos de experiência",
+        "imagem": "assets/images/autor3.jpg"
+      },
+      "caracteristicas": [
+        "Fórmulas avançadas",
+        "Macros e automação",
+        "Análise de dados",
+        "Exercícios práticos",
+        "Certificado de conclusão"
+      ],
+      "informacoes": {
+        "formato": "Vídeo+Arquivos Excel",
+        "tamanho": "800 MB",
+        "acesso": "Vitalício",
+        "suporte": "Email"
+      }
+    },
+    {
+      "id": 7
+    },
+    {
+      "nome": "NOVO PRODUTO",
+      "preco": 100,
+      "imagem": "assets/images/produto6.jpg",
+      "descricao": "Descrição resumida.",
+      "descricaoCompleta": "Descrição detalhada.",
+      "fotos": [
+        "assets/images/produto6.jpg"
+      ],
+      "autor": {
+        "nome": "Autor X",
+        "bio": "Bio",
+        "imagem": "assets/images/autor4.jpg"
+      },
+      "caracteristicas": [
+        "Característica 1",
+        "Característica 2"
+      ],
+      "informacoes": {
+        "formato": "PDF",
+        "tamanho": "2 MB",
+        "acesso": "Vitalício",
+        "suporte": "Email"
+      },
+      "id": 8
+    },
+    {
+      "nome": "NOVO PRODUTO",
+      "preco": 100,
+      "imagem": "assets/images/produto6.jpg",
+      "descricao": "Descrição resumida.",
+      "descricaoCompleta": "Descrição detalhada.",
+      "fotos": [
+        "assets/images/produto6.jpg"
+      ],
+      "autor": {
+        "nome": "Autor X",
+        "bio": "Bio",
+        "imagem": "assets/images/autor4.jpg"
+      },
+      "caracteristicas": [
+        "Característica 1",
+        "Característica 2"
+      ],
+      "informacoes": {
+        "formato": "PDF",
+        "tamanho": "2 MB",
+        "acesso": "Vitalício",
+        "suporte": "Email"
+      },
+      "id": 9
     }
   ]
 }
